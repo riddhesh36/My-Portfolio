@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://unpkg.com/@tailwindcss/typography@0.4.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+.cursive {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 600;
+}
+.thin {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+}
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.home-name {
+  font-size: 150px;
+}
+
+.side {
+  position: absolute;
+  top: 60%;
+  right: 0%;
+}
+
+.image-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
