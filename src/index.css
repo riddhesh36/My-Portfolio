@@ -26,9 +26,40 @@
   right: 0%;
 }
 
-.image-bg {
+.hero_text {
+  margin-left: auto;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  font-size: 45px;
+  font-family: sf pro display;
+  font-weight: bolder;
+  color: #52a6ff;
+}
+
+.hero_para {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 5%;
+  width: 30%;
+  margin-top: 15px;
+  font-family: poppins;
+  font-weight: bold;
+  color: #232323;
+}
+
+.span_col {
+  color: tomato;
+}
+
+.image-cover {
+  background-size: cover;
+  border-radius: 25px;
+}
+.hero_img {
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  width: 400px;
+  height: 600px;
 }

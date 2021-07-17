@@ -32,9 +32,9 @@ export default function About(){
                 <section className="bbg-yellow-300 rounded-lg shadow-2xl lg:flex p-20">
                     <img src={urlFor(author.authorImage).url()} alt={author.name} className="rounded-full w-32 h-32 lg:w-64 lg:h-64 mr-8" />
                     <div className="text-lg flex flex-col justify-center">
-                        <h1 className="cursive text-yellow-300 mb-4 text-6xl">
+                        <h1 className="cursive text-red-800 mb-4 text-6xl">
                             Hey there.I'm {" "}
-                            <span className="text-red-300 ">{author.name}</span>
+                            <span className="text-red-600 ">{author.name}</span>
                         </h1>
                         <div className="prose lg:prose-xl text-gray cursive text-gray-300">
                         <BlockContent blocks={author.bio} projectId="oxfh7dab" dataset="production" />

@@ -1,14 +1,21 @@
 import React from 'react';
-import image from '../background.jpg'
+import image from '../assets/Saly-13.jpg';
+
+
+
 
 
 export default function Home(){
     return(
-        <main>
-            <img src={image} alt="Leaves" className="absolute object-cover w-full h-full " />
-            <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-                <h1 className="image-bg text-white text-4xl cursive leading font-bold">Aloha! I'm Riddhesh</h1>
-            </section>
-        </main>
+        <header>
+            <div className="container">
+                <h1 className="hero_text">I'm Riddhesh Patil</h1>
+                <p className="hero_para"> Web Designer based in Mumbai. I create WebDesigns and Websites using<span className="span_col"> HTML CSS JAVASCRIPT REACT.JS.</span> I started Web development in 2019.</p>
+                <div className="hero_img">
+                    <img src={image} alt="" className="image-cover" />
+                </div>
+            </div>
+        </header>
+        
     )
 }
